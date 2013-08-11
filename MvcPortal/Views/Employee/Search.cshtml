@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script language="javascript" type="text/javascript">
+    $(function () {
+
+
+        $('#divName').css({ display: "none" });
+        $('#divCode').css({ display: "none" });
+        $('#divDate').css({ display: "none" });
+
+        $('select#SearchCriteria').bind('change', function (e) {
+            //e.preventDefault();
+            var odSelect = $('select[id$=SearchCriteria] :selected').text();
+
+            $("#hiddenSearch").val(odSelect);
+            CambiaOrigine(odSelect);
+        });
+        function CambiaOrigine(whatSelect) {
+
+            var divName = $('#divName');
+            var divCode = $('#divCode');
+            var divDate = $('#divDate');
+            
+            if (whatSelect == "Name") {
+                divName.css({ display: "block" });
+                divCode.css({ display: "none" });
+                divDate.css({ display: "none" });
+                
+            }
+            if (whatSelect == "Code") {
+                divName.css({ display: "none" });
+                divCode.css({ display: "block" });
+                divDate.css({ display: "none" });
+            }
+            if (whatSelect == "Date") {
+                divName.css({ display: "none" });
+                divCode.css({ display: "none" });
+                divDate.css({ display: "block" });
+            }            
+        };
+
+
+
+    });
+
+    </script>
+
+<h2>Search</h2>
+@using (Html.BeginForm()) {
+    
+    <fieldset>
+        @Html.DropDownList("SearchCriteria", new List<SelectListItem>
+        {
+        new SelectListItem { Text = "Name", Value="Name" },
+        new SelectListItem { Text = "Code", Value="Code" },
+        new SelectListItem { Text = "Date", Value="Date" }
+        }, "Select search criteria")
+
+        @Html.Hidden("hiddenSearch","")
+        
+        <div id="divName" style="width:200px">  
+            Name
+            @Html.TextBox("Name")
+        </div>
+        <div id="divCode" style="width:200px"> 
+            Code 
+            @Html.TextBox("Code")
+        </div>
+        <div id="divDate" style="width:200px"> 
+            Date 
+            @Html.TextBox("Date")
+        </div>
+        
+
+        <p>
+            <input type="submit" value="Search" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "List")
+</div>

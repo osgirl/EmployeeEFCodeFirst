@@ -1,0 +1,95 @@
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+table th 
+{
+   text-decoration: underline;
+   text-align: left;
+}
+
+table tr 
+{
+   text-align: left;
+}
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+    width: 20%;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.display-field, .display-label {
+     text-align: left;
+    font-size: 16px;
+}
+ .display-label {
+     font-weight: bold;
+}
+.editor-label 
+{
+    margin: 1em 0 0 0;
+    text-align: left;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+     text-align: left;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

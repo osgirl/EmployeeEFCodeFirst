@@ -1,0 +1,17 @@
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\CodeFirstEntities\CodeFirstEntities\bin\Debug\CodeFirstEntities.dll
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\CodeFirstEntities\CodeFirstEntities\bin\Debug\CodeFirstEntities.pdb
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\Dlls\CodeFirstEntities.dll
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\Dlls\CodeFirstEntities.pdb
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\ResolveAssemblyReference.cache
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+D:\Akhil Mittal\Articles and Blogs\4\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\Dlls\CodeFirstEntities.dll
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\Dlls\CodeFirstEntities.pdb
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\ResolveAssemblyReference.cache
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\Dlls\CodeFirstEntities.dll
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\Dlls\CodeFirstEntities.pdb
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\ResolveAssemblyReference.cache
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstEntities\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb

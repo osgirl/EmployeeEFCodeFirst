@@ -1,0 +1,12 @@
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\Dlls\CodeFirstData.dll.config
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\Dlls\CodeFirstData.dll
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\Dlls\CodeFirstData.pdb
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstData\obj\Debug\ResolveAssemblyReference.cache
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstData\obj\Debug\CodeFirstData.dll
+C:\Sviluppo\VS2010\Test\Code First Approach\SourceCode\CodeFirstData\obj\Debug\CodeFirstData.pdb
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstData\obj\Debug\ResolveAssemblyReference.cache
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstData\obj\Debug\CodeFirstData.dll
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\CodeFirstData\obj\Debug\CodeFirstData.pdb
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\Dlls\CodeFirstData.dll.config
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\Dlls\CodeFirstData.dll
+C:\Sviluppo\VS2010\Test\Employee First Approach\SourceCode\Dlls\CodeFirstData.pdb

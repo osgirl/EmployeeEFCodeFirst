@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CodeFirstEntities.Employee>
+@{
+    ViewBag.Title = "List of all Employees";
+}
+<h2>
+    List of all Employees</h2>
+<table style="padding: 10px; font-size: 16px;" cellpadding="10px" cellspacing="15px">
+    <tr >
+        <th>
+            Name
+        </th>
+        
+         <th>
+            Code
+        </th>
+        <th>
+            StartDate
+        </th>
+        <th>
+        </th>
+    </tr>
+    @{
+        if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+        <tr >
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.EmployeeId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.EmployeeId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.EmployeeId })
+            </td>
+        </tr>
+            }
+        }
+    }
+</table>
+<p>
+    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Search", "Search")
+
+    @Html.ActionLink("Back to List", "List")
+</p>

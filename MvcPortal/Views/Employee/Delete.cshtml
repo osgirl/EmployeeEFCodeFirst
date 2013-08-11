@@ -1,0 +1,37 @@
+﻿@model CodeFirstEntities.Employee
+@{
+    ViewBag.Title = "Delete the Employee";
+}
+<h2>
+    Delete the Employee</h2>
+<h3>
+    Are you sure you want to delete this?</h3>
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>Employee to Delete</legend>
+        @Html.HiddenFor(model => model.EmployeeId)        
+        @Html.HiddenFor(model => model.Name)
+        @Html.HiddenFor(model => model.Code)
+        @Html.HiddenFor(model => model.StartDate)
+
+        <div class="display-label">
+            Name</div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Name)
+        </div><br/>
+       
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Code)
+        </div><br/>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.StartDate)
+        </div><br/>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Delete" />
+        |
+        @Html.ActionLink("Back to List", "List")
+    </p>
+}

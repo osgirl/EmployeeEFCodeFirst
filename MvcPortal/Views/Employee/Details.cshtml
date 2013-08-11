@@ -1,0 +1,31 @@
+﻿@model CodeFirstEntities.Employee
+
+@{
+    ViewBag.Title = "Details of Selected Employee";
+}
+
+<h2>Details of Selected Employee</h2>
+
+<fieldset>
+    <legend>Details of Selected Employee</legend>
+
+    <div class="display-label" style="font-weight: bold;">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div><br/>
+
+    <div class="display-label" style="font-weight: bold;">Code</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Code)
+    </div>
+
+    <div class="display-label" style="font-weight: bold;">StartDate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StartDate)
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeId }) |
+    @Html.ActionLink("Back to List", "List")
+</p>

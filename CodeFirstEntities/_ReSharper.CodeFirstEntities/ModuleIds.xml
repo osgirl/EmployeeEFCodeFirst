@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="997CC6C0-7110-4371-88B5-79B8879A9D97" ModuleId="CodeFirstEntities" />
+  <Module PersistentId="91A578AE-7004-4A5D-824B-AD1C9D3B75F0" ModuleId="CodeFirstServices" />
+  <Module PersistentId="BEED32B5-2623-4389-A014-DF0B913812AF" ModuleId="CodeFirstData" />
+  <Module PersistentId="F4DF6ACD-D949-4255-81E5-751AA0C2DB7D" ModuleId="CodeFirstPortal_1" />
+  <Module PersistentId="7469045B-C944-48DD-80B0-FFEBD45E5E71" ModuleId="MvcPortal" />
+</Modules>
